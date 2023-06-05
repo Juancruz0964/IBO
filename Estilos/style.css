@@ -1,4 +1,152 @@
-body{
+/*colores 
+Azul: #18206F
+Azul mas claro: #17255A
+Crema: #F5E2C8
+Rosa: #D88373
+Rojo: #BD1E1E
+
+
+*/
+/*Media Queries*/
+
+@media (max-width: 1400px) {
+    .row {
+      flex-direction: column;
+    }
+    .col {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .col {
+      margin-bottom: 20px;
+      text-align: center; 
+    }
+    .imagen__instituto {
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 1400px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .col {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .imagen__instituto {
+      margin: 0 auto;
+    }
+  }  
+  @media (min-width: 1400px) {
+    .iframe-container {
+      margin-top: 20px;
+    }
+  }
+  
+
+
+.logo-ibo{
+    height:150px;
+
+}
+
+.barra-navegacion{
+    background-color: #F5E2C8;
+    height: 200px;
+    width: 100%;
+}
+
+nav.navbar {
+    background-color: transparent;
+}
+
+.listado__navegacion{
+    margin: 10px;
+    padding: 30px;
+}
+.listado__navegacion li{
+    margin: 12px;
+}
+
+.nosotros{
+    padding: 50px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+   
+}
+
+.nosotros__titulo {
+    font-size: 2.8rem;
+    color: black;
+   
+   
+}
+
+.nosotros__texto{
+    font-size: 2rem;
+    color: black;
+    
+   
+}
+
+.imagen__instituto{
+    width: 700px;
+    height: auto;
+}
+.aulass__titulo {
+    font-size: 2.8rem;
+    color: black; 
+    text-align: center;
+   
+}
+
+.aulas__texto{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
     background-color: #F5E2C8;
 }
 
@@ -7,8 +155,8 @@ header{
     z-index: 100;
 }
 
-header img.logo-ibo{
-    background-color: #F5E2C8;
+body header nav img.logo-ibo{
+    background-color:white;
     padding: 30px;
     height: 170px;
     width: 170px;
@@ -49,10 +197,10 @@ header h1.titulo{
     
 }
 
-/* #menu-navegacion ul li{
+ #menu-navegacion ul li{
     display: inline-block;
     padding: 0;
-} */
+}
 
 #menu-navegacion ul li a {
     color: white;
@@ -71,10 +219,10 @@ header h1.titulo{
       
 }
 
-/* div{
+ div{
     width: 400px;
     height: 400px;
-} */
+} 
 div h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -96,3 +244,4 @@ div p{
     width: 300px;
     height: 300px;
 }
+ */
