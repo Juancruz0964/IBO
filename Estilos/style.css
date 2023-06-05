@@ -17,7 +17,7 @@ Rojo: #BD1E1E
       margin-bottom: 20px;
     }
   }
-
+  
   @media (max-width: 1400px) {
     .row {
       flex-direction: column;
@@ -31,6 +31,7 @@ Rojo: #BD1E1E
       margin: 0 auto;
     }
   }
+  
   @media (max-width: 1400px) {
     .row {
       flex-direction: column;
@@ -43,75 +44,137 @@ Rojo: #BD1E1E
     .imagen__instituto {
       margin: 0 auto;
     }
-  }  
-  @media (min-width: 1400px) {
-    .iframe-container {
-      margin-top: 20px;
-    }
   }
   
+  @media (max-width: 1400px) {
+    .iframe-container {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .iframe-container iframe {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  ////////////////////////////////////////////
 
 
-.logo-ibo{
-    height:150px;
-
-}
-
-.barra-navegacion{
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .iframe-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    overflow: hidden;
+  }
+  
+  .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo-ibo {
+    height: 150px;
+  }
+  
+  .barra-navegacion {
     background-color: #F5E2C8;
     height: 200px;
     width: 100%;
-}
-
-nav.navbar {
+  }
+  
+  nav.navbar {
     background-color: transparent;
-}
-
-.listado__navegacion{
+  }
+  
+  .listado__navegacion {
     margin: 10px;
     padding: 30px;
-}
-.listado__navegacion li{
+  }
+  
+  .listado__navegacion li {
     margin: 12px;
-}
-
-.nosotros{
+  }
+  
+  .nosotros {
     padding: 50px;
     margin-right: 2rem;
     margin-left: 2rem;
-   
-}
-
-.nosotros__titulo {
-    font-size: 2.8rem;
-    color: black;
-   
-   
-}
-
-.nosotros__texto{
+  }
+  
+  .nosotros__titulo {
+    font-size: 3rem;
+    color: #18206F;
+  }
+  
+  .nosotros__texto {
     font-size: 2rem;
     color: black;
-    
-   
-}
-
-.imagen__instituto{
+  }
+  
+  .imagen__instituto {
     width: 700px;
     height: auto;
-}
-.aulass__titulo {
-    font-size: 2.8rem;
-    color: black; 
+    border: 2px solid #F5E2C8;
+  }
+  
+  .aulas__titulo {
+    font-size: 3rem;
+    color: #18206F; 
     text-align: center;
-   
-}
-
-.aulas__texto{
+  }
+  
+  .aulas__texto {
     font-size: 2rem;
     color: black;
     text-align: center;
-}
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo-text div {
+    margin-top: 5px;
+  }
+  
+  .logo-text a {
+    color: inherit;
+    text-decoration: none;
+    
+  }
+
+  .hoverable-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-nav .nav-link {
+    color: black;
+  }
+  
+  
     
    
 

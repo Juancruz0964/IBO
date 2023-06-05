@@ -9,93 +9,99 @@
     <link rel="stylesheet" href="./Estilos/reset.css">
     <link rel="stylesheet" href="./Estilos/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-  <div class="barra-navegacion">
-    <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid">
-           <a class="navbar-brand " href="#"><img class="logo-ibo" src=./Imagenes/Logo/logocuadrado.png alt="Logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end fs-3" id="navbarSupportedContent">
-                <ul class="navbar-nav listado__navegacion">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <header>
+    <div class="barra-navegacion">
+      <nav class="navbar navbar-expand-lg nav-underline">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo-ibo" src="./Imagenes/Logo/logocuadrado.png"
+              alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end fs-3" id="navbarSupportedContent">
+            <ul class="navbar-nav listado__navegacion">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./Pages/cursos.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Acción 1</a></li>
+                  <li><a class="dropdown-item" href="#">Accion 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Acción 1</a></li>
-                      <li><a class="dropdown-item" href="#">Accion 2</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Acción 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#">Acción 3</a></li>
                 </ul>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
           </div>
+        </div>
       </nav>
-  </div>
+    </div>
+  </header>
 
   <section class="nosotros container">
     <div class="row">
-  <div class="col mb-4">
-    <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto" class="imagen__instituto">
-  </div>
-  <div class="col mb-4">
-    <div class="d-flex flex-column align-items-center">
-      <h2 class="aulas__titulo">Aulas</h2>
-      <p class="aulas__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque, debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et exercitationem blanditiis rerum laborum.</p>
-    </div>
-  </div>
-</div>
-
-    
-    
-    </div>
-    <div class="row">
-      <div class="col mb-4">
-        <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto" class="imagen__instituto">
+      <div class="col-md-6 mb-4">
+        <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto" class="imagen__instituto img-fluid">
       </div>
-      <div class="col mb-4">
+      <div class="col-md-6 mb-4">
         <div class="d-flex flex-column align-items-center">
-          <h2 class="aulas__titulo">Aulas</h2>
-          <p class="aulas__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque, debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et exercitationem blanditiis rerum laborum.</p>
+          <h2 class="nosotros__titulo">Nosotros</h2>
+          <p class="nosotros__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque,
+            debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et
+            exercitationem blanditiis rerum laborum.</p>
         </div>
       </div>
     </div>
-    
 
-
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto" class="imagen__instituto img-fluid">
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="d-flex flex-column align-items-center">
+          <h2 class="aulas__titulo">Aulas</h2>
+          <p class="aulas__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque,
+            debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et
+            exercitationem blanditiis rerum laborum.</p>
+        </div>
+      </div>
+    </div>
 
     <div class="container text-center">
       <div class="row">
         <div class="col">
           <h2 class="text-center mb-4">Donde estamos</h2>
           <div class="iframe-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.477103654013!2d-58.66274462334038!3d-34.667906260892565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc1db7c239cbb%3A0x936b47f2acc72f10!2sIBO!5e0!3m2!1ses!2sar!4v1685823854388!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="iframe-wrapper">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.477103654013!2d-58.66274462334038!3d-34.667906260892565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc1db7c239cbb%3A0x936b47f2acc72f10!2sIBO!5e0!3m2!1ses!2sar!4v1685823854388!5m2!1ses!2sar"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
-
   </section>
 
-
-    
+ 
 </body>
 
 </html>
