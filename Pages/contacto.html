@@ -67,36 +67,38 @@
     </header>
   
     <div class="container mt-5">
-      <h2>Contacto</h2>
+      <h2 class="contacto-titulo">Contacto</h2>
       <form>
-        <div class="row mb-3">
-          <div class="col-md-6">
-            <label for="inputNombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputNombre" required>
-          </div>
-          <div class="col-md-6">
-            <label for="inputApellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="inputApellido" required>
-          </div>
-        </div>
-        <div class="row mb-3">
-          <div class="col-md-6">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail" required>
-          </div>
-          <div class="col-md-6">
-            <label for="inputCelular" class="form-label">Celular</label>
-            <input type="tel" class="form-control" id="inputCelular" required>
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="inputMensaje" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="inputMensaje" rows="5"></textarea>
-        </div>
-        <div class="text-end">
-            <button type="submit" class="btn-color rounded-pill me-2">Enviar</button>
-            <button type="reset" class="btn btn-secondary">Limpiar</button>
-        </div>
+        <section class="formulario-contacto">
+            <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido" required>
+            </div>
+            </div>
+            <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputCelular" class="form-label">Celular</label>
+                <input type="tel" class="form-control" id="inputCelular" required>
+            </div>
+            </div>
+            <div class="mb-3">
+            <label for="inputMensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="inputMensaje" rows="5"></textarea>
+            </div>
+            <div class="text-end">
+                <button type="reset" class="btn-secondary btn-borrar rounded-pill">Borrar todo</button>
+                <button type="submit" class="btn-color rounded-pill me-2">Enviar</button>
+            </div>
+        </section>
       </form>
     </div>
   </body>

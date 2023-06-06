@@ -58,7 +58,7 @@ Rojo: #BD1E1E
     }
   }
 
-
+/*Media Queries*/
 
   .iframe-container {
     display: flex;
@@ -174,12 +174,55 @@ Rojo: #BD1E1E
     color: black;
   }
   
+  h2.contacto-titulo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .formulario-contacto{
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .contacto-titulo{
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .btn-color {
-    background-color: black;
-    border-color: #17255A;
-    color: #F5E2C8;
+        text-decoration:none;
+        font-weight:600px;
+        font-size:20px;
+        color: white;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:150px;
+        padding-right:150px;
+        background-color:#17255A;
     
   }
+
+  .btn-borrar{
+        font-weight:550px;
+        font-size:20px;
+        color: white;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:100px;
+        padding-right:100px;
+        background-color: grey;
+  }
+
+  .btn-color:hover{
+    background-color: #F5E2C8;
+    color: black;
+  }
+
+  .btn-borrar:hover{
+    background-color: #F5E2C8;
+    color: black;
+  }
+
   
     
    
