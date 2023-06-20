@@ -8,9 +8,10 @@
     <link rel="shortcut icon" href="/Imagenes/Logo/logocuadrado.png" type="image/x-icon">
     <link rel="stylesheet" href="./Estilos/reset.css">
     <link rel="stylesheet" href="./Estilos/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -29,28 +30,19 @@
                   </div>
                 </div>
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end fs-3" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse justify-content-end fs-3" id="navbarSupportedContent">            
             <ul class="navbar-nav listado__navegacion">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./Pages/cursos.html" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link" href="./Pages/cursos.html" role="button"
                   aria-expanded="false">
                   Cursos
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Acción 1</a></li>
-                  <li><a class="dropdown-item" href="#">Accion 2</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Acción 3</a></li>
-                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Actividades</a>
@@ -65,39 +57,74 @@
     </div>
   </header>
 
+  
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExample" data-slide-to="1"></li>
+      <li data-target="#carouselExample" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Imagenes/Recortadas/DSC_0001-.jpg" class="d-block w-100 
+        carousel__foto1 img" alt="Recepcion">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagenes/Recortadas/DSC_0006.jpg" class="d-block w-100 
+        carousel__foto2" alt="Aula1">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagenes/Recortadas/DSC_0005.jpg" class="d-block w-100 carousel__foto3" alt="Aula2">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagenes/Recortadas/DSC_1825.jpg" class="d-block w-100 carousel__foto3" alt="Aula3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+
+  <div class="decorative-heading">
+    <h2><span class="line-left"></span>Since 1997<span class="line-right"></span></h2>
+  </div>
+  
+
   <section class="nosotros container">
     <div class="row">
       <div class="col-md-6 mb-4">
         <img src="./Imagenes/DSC_1746.jpg" alt="imageninstituto" class="imagen__instituto img-fluid">
       </div>
-      <div class="col-md-6 mb-4">
-        <div class="d-flex flex-column align-items-center">
+      <div class="col-md-6 mb-4 d-flex align-items-start">
+        <div class="d-flex flex-column">
           <h2 class="nosotros__titulo">Nosotros</h2>
-          <p class="nosotros__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque,
-            debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et
-            exercitationem blanditiis rerum laborum.</p>
+          <p class="nosotros__texto">I.B.O es una academia de inglés familiar con más de 25 años de experiencia. 
+            Contamos con un equipo de profesores con experiencia y pasión por la profesión cuyo valor extra es el trato cercano y familiar. </p>
         </div>
       </div>
     </div>
-
+    
     <div class="row">
       <div class="col-md-6 mb-4">
-        <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto" class="imagen__instituto img-fluid">
+        <img src="./Imagenes/DSC_1825.jpg" alt="imageninstituto2" class="imagen__instituto img-fluid">
       </div>
-      <div class="col-md-6 mb-4">
-        <div class="d-flex flex-column align-items-center">
+      <div class="col-md-6 mb-4 d-flex align-items-start">
+        <div class="d-flex flex-column">
           <h2 class="aulas__titulo">Aulas</h2>
-          <p class="aulas__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus itaque,
-            debitis quos distinctio esse atque? Cumque numquam natus pariatur sed, porro, facilis ullam, deleniti et
-            exercitationem blanditiis rerum laborum.</p>
+          <p class="aulas__texto">El establecimiento posee 7 aulas. Al trabajar con grupo reducidos, podemos garantizar una enseñanza de calidad, conocer las necesidades de cada alumno, brindar atención personalizada y la máxima comodidad.</p>
         </div>
       </div>
-    </div>
+    </div>   
 
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <h2 class="text-center mb-4">Donde estamos</h2>
+          <h2 class="text-center mb-4 nosotros__titulo">Donde estámos</h2>
           <div class="iframe-container">
             <div class="iframe-wrapper">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.477103654013!2d-58.66274462334038!3d-34.667906260892565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc1db7c239cbb%3A0x936b47f2acc72f10!2sIBO!5e0!3m2!1ses!2sar!4v1685823854388!5m2!1ses!2sar"
@@ -109,7 +136,19 @@
     </div>
   </section>
 
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Instituto Británico del Oeste. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+

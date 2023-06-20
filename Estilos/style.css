@@ -5,32 +5,9 @@ Crema: #F5E2C8
 Rosa: #D88373
 Rojo: #BD1E1E
 
-
 */
 /*Media Queries*/
-
-@media (max-width: 1400px) {
-    .row {
-      flex-direction: column;
-    }
-    .col {
-      margin-bottom: 20px;
-    }
-  }
-  
-  @media (max-width: 1400px) {
-    .row {
-      flex-direction: column;
-      align-items: center;
-    }
-    .col {
-      margin-bottom: 20px;
-      text-align: center; 
-    }
-    .imagen__instituto {
-      margin: 0 auto;
-    }
-  }
+ 
   
   @media (max-width: 1400px) {
     .row {
@@ -44,9 +21,6 @@ Rojo: #BD1E1E
     .imagen__instituto {
       margin: 0 auto;
     }
-  }
-  
-  @media (max-width: 1400px) {
     .iframe-container {
       max-width: 100%;
       margin-bottom: 20px;
@@ -57,7 +31,35 @@ Rojo: #BD1E1E
       height: 400px;
     }
   }
+  
+  @media (max-width: 992px) {
+    nav.navbar {
+      background-color: #F5E2C8;
+    }
+  
+    .listado__navegacion {
+      background-color: #F5E2C8;
+      padding: 0;
+    }
+  
+    .dropdown-menu {
+      background-color: #F5E2C8;
+    }
+  
+    .dropdown-divider {
+      border-top-color: #333;
+      
+    }
+  }
+  
 
+
+  @media (min-width: 1401px) {
+    .imagen__instituto {
+      width: 1100px;
+    }
+  }
+  
 /*Media Queries*/
 
   .iframe-container {
@@ -111,25 +113,32 @@ Rojo: #BD1E1E
   }
   
   .nosotros__titulo {
-    font-size: 3rem;
-    color: #18206F;
+      margin: 0;
+      font-size: 3rem;
+      color: #18206F; 
+      text-align: center;
+      padding: 20px;
   }
   
   .nosotros__texto {
     font-size: 2rem;
     color: black;
+    text-align: center;
   }
   
   .imagen__instituto {
-    width: 700px;
+    width: 900px;
     height: auto;
-    border: 2px solid #F5E2C8;
+    border: 2px solid #fff;
+    padding: 20px;
   }
   
   .aulas__titulo {
+    margin: 0;
     font-size: 3rem;
     color: #18206F; 
     text-align: center;
+    padding: 20px;
   }
   
   .aulas__texto {
@@ -222,11 +231,58 @@ Rojo: #BD1E1E
     background-color: #F5E2C8;
     color: black;
   }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  
+}
+
 
   
-    
-   
+.carousel__foto1,
+.carousel__foto2,
+.carousel__foto3 {
+  width: 100%;
+  height: 1400px;
+  max-width: 100%;
+  max-height: 100%;
+}
 
+    
+.decorative-heading {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.decorative-heading h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  color: #18206F;
+  margin-bottom: 10px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.decorative-heading h2 .line-left,
+.decorative-heading h2 .line-right {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 7px;
+  background-color: #BD1E1E;
+}
+
+.decorative-heading h2 .line-left {
+  left: -110px;
+}
+
+.decorative-heading h2 .line-right {
+  right: -110px;
+}
 
 
 
