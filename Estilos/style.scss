@@ -1,0 +1,205 @@
+.iframe-container
+  display: flex
+  justify-content: center
+  margin-top: 20px
+
+.iframe-wrapper
+  position: relative
+  width: 100%
+  padding-bottom: 56.25%
+  overflow: hidden
+
+.iframe-wrapper iframe
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+.logo-ibo
+  height: 150px
+
+.barra-navegacion
+  background-color: #F5E2C8
+  height: 200px
+  width: 100%
+
+nav.navbar
+  background-color: transparent
+
+.listado__navegacion
+  margin: 10px
+  padding: 30px
+
+.listado__navegacion li
+  margin: 12px
+
+.nosotros
+  padding: 50px
+  margin-right: 2rem
+  margin-left: 2rem
+
+.nosotros__titulo
+  margin: 0
+  font-size: 3rem
+  color: #18206F
+  text-align: center
+  padding: 20px
+
+.nosotros__texto
+  font-size: 2rem
+  color: black
+  text-align: center
+
+.imagen__instituto
+  width: 900px
+  height: auto
+  border: 2px solid #fff
+  padding: 20px
+
+.aulas__titulo
+  margin: 0
+  font-size: 3rem
+  color: #18206F
+  text-align: center
+  padding: 20px
+
+.aulas__texto
+  font-size: 2rem
+  color: black
+  text-align: center
+
+.logo-container
+  display: flex
+  align-items: center
+
+.logo-text
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 20px
+  margin-left: 10px
+  font-family: "Arial", sans-serif
+  font-size: 24px
+  color: black
+  text-decoration: none
+  font-weight: bold
+
+.logo-text div
+  margin-top: 5px
+
+.logo-text a
+  color: inherit
+  text-decoration: none
+
+.hoverable-dropdown:hover .dropdown-menu
+  display: block
+
+.navbar-nav .nav-link
+  color: black
+
+h2.contacto-titulo
+  margin-top: 50px
+  margin-bottom: 30px
+
+.formulario-contacto
+  font-weight: bold
+  font-size: 1.25rem
+
+.contacto-titulo
+  font-size: 2rem
+  text-align: center
+
+.btn-color
+  text-decoration: none
+  font-weight: 600px
+  font-size: 20px
+  color: white
+  padding-top: 15px
+  padding-bottom: 15px
+  padding-left: 150px
+  padding-right: 150px
+  background-color: #17255A
+
+.btn-borrar
+  font-weight: 550px
+  font-size: 20px
+  color: white
+  padding-top: 10px
+  padding-bottom: 10px
+  padding-left: 100px
+  padding-right: 100px
+  background-color: grey
+
+.btn-color:hover
+  background-color: #F5E2C8
+  color: black
+
+.btn-borrar:hover
+  background-color: #F5E2C8
+  color: black
+
+.footer
+  background-color: #333
+  color: #fff
+  padding: 20px 0
+  text-align: center
+  width: 100%
+  bottom: 0
+  left: 0
+
+.carousel__foto1,
+.carousel__foto2,
+.carousel__foto3
+  width: 100%
+  height: 1400px
+  max-width: 100%
+  max-height: 100%
+
+.decorative-heading
+  text-align: center
+  margin-top: 100px
+  margin-bottom: 80px
+
+.decorative-heading h2
+  position: relative
+  display: inline-block
+  font-size: 50px
+  font-weight: bold
+  color: #18206F
+  margin-bottom: 10px
+  font-family: 'Cinzel Decorative', cursive
+
+.decorative-heading h2 .line-left,
+.decorative-heading h2 .line-right
+  position: absolute
+  top: 50%
+  width: 100px
+  height: 7px
+  background-color: #BD1E1E
+
+.decorative-heading h2 .line-left
+  left: -110px
+
+.decorative-heading h2 .line-right
+  right: -110px
+
+.titulo__cursos
+  font-size: 50px
+  font-weight: bold
+  color: #18206F
+
+.texto__cursos
+  font-size: 35px
+  color: black
+
+.imagen__alan
+  width: 600px
+  position: relative
+  display: inline-block
+
+.text-center
+  text-align: center
+
+.texto__nuestroscursos
+  width: 100%
