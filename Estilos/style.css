@@ -416,7 +416,36 @@ margin-top: 15px;
   color: #BD1E1E;
 }
 
-.carousel {
-  margin-top: 50px;
+.custom-carousel-width{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px;
+}
+
+.list-group-item strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.list-group-item p {
+  margin-bottom: 10px;
 }
 
